@@ -1,1 +1,1 @@
-DB_STRING = 'sqlite:///test.db'
+DB_STRING = 'sqlite:///matrimony.db'

@@ -8,7 +8,7 @@ class BaseModel(db.Model, AllFeaturesMixin):
 
 BaseModel.set_session(db.session)
 
-class Profiles(BaseModel):
+class Profile(BaseModel):
 
     id = sa.Column(sa.Integer, primary_key=True)
 

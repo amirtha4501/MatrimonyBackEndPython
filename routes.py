@@ -9,4 +9,5 @@ ROUTES = [
     ('GET', '/profiles', list_profiles),
 
     ('GET', '/profiles/<int:profile_id>', view_profile)
+
 ]
